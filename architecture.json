@@ -1,0 +1,29 @@
+{
+    "fonts": "",
+    "src": {
+        "assets": {
+            "fonts": [],
+            "styles": []
+        },
+        "components": {
+            "experience/": {
+
+            },
+            "layouts/": {
+                "Footer.jsx": "",
+                "Header.jsx": "",
+                "Nav.jsx": ""
+            },
+            "profile/": {
+                "Profile.jsx": "",
+                "Skills.jsx": ""
+            },
+            "Experience.jsx": "",
+            "Home.jsx": "",
+            "Profolio.jsx": ""
+        },
+        "App.jsx": "",
+        "index.html": "",
+        "index.jsx": ""
+    }
+}

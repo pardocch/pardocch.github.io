@@ -1,0 +1,51 @@
+{
+  "name": "personal-page",
+  "version": "1.0.0",
+  "description": "Personal Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --config ./webpack.config.js"
+  },
+  "author": "pardocch",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "classnames": "^2.2.6",
+    "file-loader": "^4.2.0",
+    "font-mfizz": "^2.4.1",
+    "jimp": "^0.7.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-imation": "^0.5.3",
+    "react-materialize": "^3.3.5",
+    "react-router-dom": "^5.0.1",
+    "react-scrollchor": "^6.0.0",
+    "react-track": "^0.4.4",
+    "responsive-loader": "^1.2.0",
+    "sass-loader": "^8.0.0",
+    "typed.js": "^2.0.10",
+    "url-loader": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
