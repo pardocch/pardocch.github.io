@@ -8,7 +8,7 @@ export default class ProjectItem extends Component {
     render() {
         let project = this.props.project,
             skills = (project.skills)
-                ? project.skills.slice(0).reverse().map((skill, index) => <Badge key={index} className="blue">{ skill }</Badge>)
+                ? project.skills.slice(0).reverse().map((skill, index) => <Badge key={index} className="teal lighten-2">{ skill }</Badge>)
                 : null,
             title = (
                 <h5 className="black-text">{ project.title }{ skills }</h5>
