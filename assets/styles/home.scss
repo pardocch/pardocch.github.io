@@ -1,0 +1,33 @@
+#push {
+    height: 100%;
+    margin-top: -64px;
+}
+
+#typeName > span {
+    display: inline-block;
+}
+
+#typeTitle > span {
+    display: inline-block;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.center {
+    // text-align: center;
+}
+
+.valign-wrapper {
+    display: flex;
+    // align-items: center;
+}
+
+.full-h {
+    height: 100%;
+}
+
+.full-w {
+    width: 100%;
+}
