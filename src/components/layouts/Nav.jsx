@@ -94,7 +94,7 @@ export default class Nav extends Component {
                 <i className="fa fa-github" aria-hidden="true" />
                 </a>
                 <a
-                    href={"/assets/Resume.pdf"}
+                    href={"./dist/assets/Resume.pdf"}
                     className="black-text"
                     target="_BLANK"
                 >

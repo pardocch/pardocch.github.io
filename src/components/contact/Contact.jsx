@@ -42,7 +42,7 @@ export default class Contact extends Component {
                             </a>
                             <br/>
                             <br/>
-                            <a href={"/assets/Resume.pdf"} target="_BLANK" className="black-text">
+                            <a href={"./dist/assets/Resume.pdf"} target="_BLANK" className="black-text">
                                 <button className="btn btn-large teal lighten-2">View resume</button>
                             </a>
                             <br/>
