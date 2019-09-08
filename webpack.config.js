@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 // const extractPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
@@ -71,6 +72,11 @@ module.exports = {
         new HtmlWebPackPlugin({
             template: './src/index.html'
         }),
+        new webpack.DefinePlugin({
+            'process.env': {
+                NODE_ENV: JSON.stringify('production')
+            }
+        })
         // extractPlugin
     ],
     resolve: {
