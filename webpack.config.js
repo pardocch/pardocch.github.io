@@ -10,7 +10,7 @@ module.exports = {
     },
     output: {
         // 打包後的檔案名稱
-        filename: 'src/index_bundle.js',
+        filename: 'index_bundle.js',
         // 打包後的路徑，這裡使用path模組的resolve()去取得絕對位置，也就是目前專案的根目錄
         // path: path.resolve('./'),
         // path: `${__dirname}/build`,
@@ -77,7 +77,7 @@ module.exports = {
         modules: [path.resolve('./src'), path.resolve('./assets'), path.resolve('./node_modules')]
     },
     devServer: {
-        contentBase: path.resolve(__dirname, 'src'),
+        contentBase: path.resolve(__dirname, 'dist'),
         compress: true,
         hot: true,
         port: 3000,
