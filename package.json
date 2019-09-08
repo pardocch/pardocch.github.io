@@ -14,7 +14,7 @@
   "author": "pardocch",
   "license": "ISC",
   "private": true,
-  "homepage": "https://pardocch.github.io/",
+  "homepage": "http://pardocch.github.io/",
   "dependencies": {
     "axios": "^0.19.0",
     "classnames": "^2.2.6",

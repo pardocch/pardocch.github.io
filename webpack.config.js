@@ -5,13 +5,16 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: {
         // webpack打包的對象
-        index: ['./src/index.jsx']
+        index: `${__dirname}/src/index.jsx`
     },
     output: {
         // 打包後的檔案名稱
-        filename: 'src/index_bundle.js',
+        // filename: 'src/index_bundle.js',
         // 打包後的路徑，這裡使用path模組的resolve()去取得絕對位置，也就是目前專案的根目錄
-        path: path.resolve('./'),
+        // path: path.resolve('./'),
+        path: `${__dirname}/build`,
+        publicPath: '/build/',
+        filename: 'bundle.[hash].js'
     },
     module: {
         rules: [
@@ -69,6 +72,9 @@ module.exports = {
         }),
         // extractPlugin
     ],
+    resolve: {
+        modules: [path.resolve('./src'), path.resolve('./assets'), path.resolve('./node_modules')]
+    },
     devServer: {
         contentBase: path.resolve(__dirname, 'src'),
         compress: true,
