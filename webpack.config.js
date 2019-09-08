@@ -12,7 +12,7 @@ module.exports = {
         // 打包後的檔案名稱
         filename: 'index_bundle.js',
         // 打包後的路徑，這裡使用path模組的resolve()去取得絕對位置，也就是目前專案的根目錄
-        // path: path.resolve('./'),
+        path: path.resolve('./src'),
         // path: `${__dirname}/build`,
         // publicPath: '/build/',
         // filename: 'bundle.[hash].js'
