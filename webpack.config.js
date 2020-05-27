@@ -80,8 +80,8 @@ module.exports = {
         // extractPlugin
     ],
     resolve: {
-        // modules: [path.resolve('./src'), path.resolve('./assets'), path.resolve('./node_modules')]
-        modules: [path.resolve('./node_modules')]
+        modules: [path.resolve('./src'), path.resolve('./assets'), path.resolve('./node_modules')]
+        // modules: [path.resolve('./node_modules')]
     },
     devServer: {
         contentBase: path.resolve(__dirname, 'dist'),

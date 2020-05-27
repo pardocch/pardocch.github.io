@@ -152,7 +152,7 @@ const info = {
 
 info.projects.map((project, index) => {
     if (project.avatar) {
-        const projectAvatar = require(`responsive-loader?placeholder=true&name=./assets/images/portfolio/[hash].[ext]&sizes[]=400.&sizes[]=600.&sizes[]=800!./assets/images/portfolio/${
+        const projectAvatar = require(`responsive-loader?placeholder=true&name=/images/portfolio/[hash].[ext]&sizes[]=400.&sizes[]=600.&sizes[]=800!./assets/images/portfolio/${
             project.avatar
         }`);
         project.avatar = projectAvatar;
