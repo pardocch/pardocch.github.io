@@ -32,6 +32,28 @@ const info = {
     experience: 
         [
             {
+                company: "Self-employed",
+                role: [
+                    {
+                        name: "Website Freelancer",
+                        start: "Aug 2019",
+                        end: "Present",
+                        type: ""
+                    }
+                ]
+            },
+            {
+                company: "Kim An Pty Ltd",
+                role: [
+                    {
+                        name: "Warehouse Allocator",
+                        start: "Aug 2019",
+                        end: "May 2020",
+                        type: "Part Time"
+                    }
+                ]
+            },
+            {
                 company: "Jheng Long Technology CO., Ltd.",
                 role: [
                     {
@@ -61,6 +83,14 @@ const info = {
             end: "Jun 2017"
         },
         projects: [
+            {
+                title: "THAI-RIFFIC",
+                description: "",
+                url: "http://thai-riffic.com.au",
+                avatar: "thairiffic.png",
+                images: [],
+                skills: ["PHP", "Wordpress", "CSS3", "AWS", "JavaScript"]
+            },
             {
                 title: "Jheng Long Technology",
                 description: "",

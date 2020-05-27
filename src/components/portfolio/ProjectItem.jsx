@@ -16,7 +16,7 @@ export default class ProjectItem extends Component {
             header = (<CardTitle image={project.avatar} />)
 
         return (
-            <Col s={12} m={6} className="no-padding">
+            <Col s={12} m={6} className="no-padding pseth">
                 <a href={project.url} target="_BLANK">
                     <Card className="no-margin" header={header} title={title}>
                         <p>
