@@ -29,7 +29,7 @@ class CardTitle extends Component {
         };
         return (
             <div className={cx(classes)} {...props}>
-                <img className={cx(imgClasses)} src={image.src} srcSet={image.srcSet} />
+                <img className={cx(imgClasses)} src={"src"+image.src} srcSet={"src"+image.srcSet} />
                 <span className={cx(titleClasses)}>{ children }</span>
             </div>
         );
