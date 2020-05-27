@@ -14,8 +14,8 @@ const info = {
             "I am ready for new challenges, do you have one for me? <br /> Let's get to work!"
         ],
         skills: {
-            Backend: ["PHP", "Laravel", "Codeigniter", "Wordpress", "Java", "NodeJS"],
-            Frontend: ["HTML5", "CSS3", "JavaScript", {icon: "reactjs", name: "React.js"}, {icon: "vuejs", name: "Vue.js"}, "jQuery", "Bootstrap", "Materialize"],
+            Backend: ["PHP", "Laravel", "Codeigniter", "Wordpress", "Python", "Django", "NodeJS"],
+            Frontend: ["HTML5", "CSS3", "JavaScript", {icon: "reactjs", name: "React.js"}, "jQuery", "Bootstrap", "Materialize"],
             Database: ["MySQL", {icon: "mssql", name: "MS SQL Server"}],
             DevTools: ["Sass", "Composer", "NPM", "Webpack", "Git"],
             DevOps: [{icon: "aws", name: "Amazon Web Service"}, "Apache", "Nginx", "IIS", "Docker", "Redis"]
