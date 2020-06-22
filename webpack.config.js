@@ -69,9 +69,9 @@ const dev = {
         ]
     },
     plugins: [
-        // new HtmlWebPackPlugin({
-        //     template: './src/index.html'
-        // }),
+        new HtmlWebPackPlugin({
+            template: './src/index.html'
+        }),
         new webpack.DefinePlugin({
             'process.env': {
                 NODE_ENV: JSON.stringify('production')
@@ -158,9 +158,9 @@ const prod = {
         ]
     },
     plugins: [
-        // new HtmlWebPackPlugin({
-        //     template: './src/index.html'
-        // }),
+        new HtmlWebPackPlugin({
+            template: './src/index.html'
+        }),
         new webpack.DefinePlugin({
             'process.env': {
                 NODE_ENV: JSON.stringify('production')

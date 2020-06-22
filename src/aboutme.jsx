@@ -84,12 +84,20 @@ const info = {
         },
         projects: [
             {
+                title: "Peasy Travel",
+                description: "Collaborate with Xeno Studio.",
+                url: "https://peasytravel.com",
+                avatar: "peasytravel.png",
+                images: [],
+                skills: ["PHP", "Wordpress", "CSS3", "JavaScript"]
+            },
+            {
                 title: "THAI-RIFFIC",
-                description: "",
+                description: "Collaborate with Xeno Studio.",
                 url: "http://thai-riffic.com.au",
                 avatar: "thairiffic.png",
                 images: [],
-                skills: ["PHP", "Wordpress", "CSS3", "AWS", "JavaScript"]
+                skills: ["PHP", "Wordpress", "CSS3", "JavaScript"]
             },
             {
                 title: "Jheng Long Technology",

@@ -14,11 +14,11 @@ export default class Contact extends Component {
                         <hr/>
                         <br/>
                         <div>
-                            <a href={"tel://" + info.phoneau} className="black-text">
+                            <a href={"tel://" + info.phonetw} className="black-text">
                                 <i className="fa fa-phone-square" aria-hidden="true" style={{
                                     fontSize: "18px"
                                 }}></i>
-                                <span className="margin-left-18">{info.phoneauBeautified}</span>
+                                <span className="margin-left-18">{info.phonetwBeautified}</span>
                             </a>
                             <br/>
                             <br/>
